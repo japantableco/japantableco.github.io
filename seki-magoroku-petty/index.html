@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>This Blade Is Half the Length of Its Own Big Brother. So Why Do Chefs Reach for It First?</title>
+<meta name="description" content="Same series, same steel, same maker -- but this Japanese petty knife's blade is barely half the length of the largest knife in its own lineup. The real functional reason cooks reach for the small blade first, plus the 500-year swordsmithing name behind it.">
+<style>
+  :root {
+    --bg: #faf7f2;
+    --text: #211c17;
+    --text-muted: #5c534a;
+    --card: #ffffff;
+    --border: #e6ddd0;
+    --accent: #9c2b1f;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15130f;
+      --text: #f0ebe0;
+      --text-muted: #b3a996;
+      --card: #201c15;
+      --border: #3a332a;
+      --accent: #d1594a;
+      --accent-text: #15130f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px 64px;
+  }
+  .hero-frame {
+    width: 100%;
+    max-width: 640px;
+    height: 280px;
+    margin: 0 auto;
+    background: var(--card);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .hero-img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 32px;
+  }
+  h1 {
+    font-size: 1.55rem;
+    line-height: 1.3;
+    margin: 8px 0 4px;
+  }
+  .subhead {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+  }
+  p { margin: 0 0 14px; }
+  figure { margin: 24px 0; }
+  figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    background: var(--card);
+  }
+  figcaption {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 8px;
+    line-height: 1.5;
+  }
+  .lineup {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px 0;
+    text-align: center;
+  }
+  .lineup .bar {
+    background: var(--accent);
+    border-radius: 4px;
+    margin: 0 auto 6px;
+    width: 60%;
+  }
+  .lineup .size { font-size: 0.75rem; color: var(--text-muted); }
+  .lineup .this .size { color: var(--accent); font-weight: 700; }
+  .split {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr;
+    margin: 24px 0;
+  }
+  .split .box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .split .box .label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+  .split .box p { font-size: 0.88rem; color: var(--text-muted); margin: 0; }
+  @media (max-width: 420px) {
+    .split { grid-template-columns: 1fr; }
+    .lineup { grid-template-columns: repeat(5, 1fr); }
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin: 24px 0;
+  }
+  .segments {
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .segment {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    background: var(--card);
+  }
+  .segment .label {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .segment.skip .label { color: var(--text-muted); }
+  .cta {
+    display: block;
+    text-align: center;
+    background: var(--accent);
+    color: var(--accent-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.05rem;
+    padding: 16px 20px;
+    border-radius: 10px;
+    margin: 32px 0 8px;
+  }
+  .cta:active { opacity: 0.85; }
+  .cta-note {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 40px;
+  }
+  .disclosure {
+    border-top: 1px solid var(--border);
+    margin-top: 48px;
+    padding-top: 20px;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero-frame">
+<img class="hero-img" src="hero.jpg" alt="A small Japanese petty knife with a black riveted handle and an engraved Sekimagoroku blade mark, laid diagonally on a plain warm-gray surface, its full length visible with generous negative space showing its compact scale">
+</div>
+
+<div class="wrap">
+
+  <div class="eyebrow">Same Series. Half the Blade.</div>
+  <h1>This Blade Is Half the Length of Its Own Big Brother. So Why Do Chefs Reach for It First?</h1>
+  <p class="subhead">This isn't a knife from a different, cheaper line. It's the same steel, the same handle, the same maker as the largest knife in its own lineup -- just built at 120mm instead of 210mm. If bigger were simply better, this size wouldn't exist at all.</p>
+
+  <h2>One knife family, five different jobs</h2>
+  <p>Kai's Seki Magoroku "Akane" line ships as a graduated set of five blades, all sharing the same clad steel and handle design:</p>
+
+  <div class="lineup">
+    <div><div class="bar" style="height:26px;"></div><div class="size">Komatoku<br>145mm</div></div>
+    <div><div class="bar" style="height:30px;"></div><div class="size">Santoku<br>165mm</div></div>
+    <div><div class="bar" style="height:33px;"></div><div class="size">Gyuto<br>180mm</div></div>
+    <div><div class="bar" style="height:38px;"></div><div class="size">Gyuto<br>210mm</div></div>
+    <div class="this"><div class="bar" style="height:22px;"></div><div class="size">Petty<br>120mm</div></div>
+  </div>
+
+  <p>Japanese kitchen knives have traditionally been divided by task rather than sold as one "does everything" blade. The 210mm gyuto exists for rocking through onions and breaking down proteins. The 120mm petty exists for the opposite kind of work entirely -- and that's exactly why a serious kitchen keeps both.</p>
+
+  <h2>What the small blade does that the big one can't</h2>
+  <p>A chef's knife earns its length by staying in constant contact with the board on long, straight cuts. But that same length works against you the moment the job gets small and close: peeling a whole apple in one ribbon, hulling a strawberry, deveining a shrimp, trimming silverskin off a cutlet, cutting a citrus segment free from its membrane. Try any of those with a 210mm blade and the tip is too far from your guiding hand to control precisely -- you're steering a blade you can barely see the end of.</p>
+  <p>A petty knife puts the cutting edge exactly where your fingers already are. That's the whole design brief: not a smaller chef's knife, but a different tool for work that rewards control over reach.</p>
+
+  <h2>The name on the blade is 500 years old</h2>
+  <p>The engraved mark reads <strong>Sekimagoroku (関孫六)</strong>. It traces back to the 2nd-generation swordsmith Kanemoto, active in Seki, Mino Province (today's Seki City, Gifu Prefecture) in the early 1500s during the late Muromachi period. Known as "Seki no Magoroku," he developed the <em>sanbon sugi</em> (three-cedar) blade-pattern forging technique, and swords bearing his work armed Sengoku-era warlords including Takeda Shingen and Toyotomi Hideyoshi. The Kanemoto swordsmithing line continued for more than 20 generations from the Muromachi period into the present day -- Kai Corporation, still based in Seki, carries that name onto its modern kitchen cutlery.</p>
+
+  <h2>What you're actually buying</h2>
+  <p>To be upfront: this is not a hand-forged, single-smith blade. Kai is one of Japan's largest cutlery manufacturers, and the Seki Magoroku Akane line is a mainstream, dishwasher-safe, stainless/high-carbon clad-steel knife made on a production line -- not an individually hammered heirloom. What it does carry forward honestly is the maker's location (Seki, still a working cutlery town) and the Magoroku name itself, on a knife built for actual daily kitchen use rather than display.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0;">Is this knife right for you?</h2>
+    <div class="segments">
+      <div class="segment">
+        <div class="label">Good fit if &mdash;</div>
+        you already own a chef's knife or santoku and keep reaching for kitchen scissors or a paring knife for the close, precise work instead.
+      </div>
+      <div class="segment">
+        <div class="label">Good fit if &mdash;</div>
+        you want a genuine Seki-made blade at an everyday price rather than a boutique hand-forged piece.
+      </div>
+      <div class="segment skip">
+        <div class="label">Consider something else if &mdash;</div>
+        you're looking for a single all-purpose knife -- this is deliberately a specialist, not a chef's knife replacement.
+      </div>
+      <div class="segment skip">
+        <div class="label">Consider something else if &mdash;</div>
+        you want a traditional wa-handle (round wood grip) -- this one uses a riveted, Western-style resin handle.
+      </div>
+    </div>
+  </div>
+
+  <h2>The knife</h2>
+  <p>Kai Seki Magoroku Akane Petty Knife, 4.7 in (120mm) blade, stainless/high-carbon clad steel, black resin handle, ambidextrous, dishwasher safe. Made in Seki, Japan.</p>
+
+  <a class="cta" href="https://www.amazon.com/dp/B00KKEBTPG?tag=japantableco-lp-20">See current price on Amazon &rarr;</a>
+  <p class="cta-note">As an Amazon Associate, I earn from qualifying purchases.</p>
+
+  <p class="disclosure">This page contains an affiliate link &mdash; if you buy through it, it costs you nothing extra and helps support this site. Blade-length figures are the manufacturer's stated specifications for the Seki Magoroku Akane line.</p>
+
+</div>
+</body>
+</html>
